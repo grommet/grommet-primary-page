@@ -1,8 +1,6 @@
 # Grommet Primary Page Template
 
-Note: I'm in the process of refactoring this into a Universal template. 
-
-This is the source code for a Grommet based single page app. To run the website execute the following:
+To run the website execute the following:
 
   1. Install website NPM modules:
 
