@@ -52,7 +52,7 @@ export default class PrimaryPage extends Component {
           <NewsFeed />
         </Box>
 
-        <Box colorIndex="accent-2-t" pad="large" align="center">
+        <Box colorIndex="neutral-1" pad="large" align="center">
           <Box className="footer-cards-container" pad={{vertical: "medium"}}
             size={{width: "xxlarge"}} direction="row">
             <Card
