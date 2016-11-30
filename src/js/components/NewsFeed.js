@@ -105,7 +105,7 @@ export default class NewsFeed extends Component {
         margin="small"
         contentPad="medium"
         onClick={this._onClickCard.bind(this, grommetPath)}
-        thumbnail="/docs/img/carousel-1.png"
+        thumbnail="/img/carousel-1.png"
         direction="column"
         label="Featured Post"
         link={
