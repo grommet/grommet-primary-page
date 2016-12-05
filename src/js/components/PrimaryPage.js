@@ -3,37 +3,17 @@ import Anchor from 'grommet/components/Anchor';
 import Box from 'grommet/components/Box';
 import Card from 'grommet/components/Card';
 import Footer from 'grommet/components/Footer';
-import Header from 'grommet/components/Header';
 import Heading from 'grommet/components/Heading';
 import Hero from 'grommet/components/Hero';
-import Menu from 'grommet/components/Menu';
 import Paragraph from 'grommet/components/Paragraph';
-import GrommetIcon from 'grommet/components/icons/base/BrandGrommetOutline';
-import SearchIcon from 'grommet/components/icons/base/Search';
+import Header from './Header';
 import NewsFeed from './NewsFeed';
 
 export default class PrimaryPage extends Component {
   render() {
     return (
-      <Box colorIndex="light-1">
-        <Header justify="center" colorIndex="neutral-4">
-          <Box size={{width: {max: 'xxlarge'}}} direction="row"
-            responsive={false} justify="start" align="center" 
-            pad={{horizontal: 'medium'}}>
-            <GrommetIcon colorIndex="brand" />
-            <Box pad="small" />
-            <Menu label="Label" inline={true} direction="row">
-              <Anchor href="#">Solutions</Anchor>
-              <Anchor href="#">Services</Anchor>
-              <Anchor href="#">Products</Anchor>
-              <Anchor href="#">About Us</Anchor>
-              <Anchor href="#">Support</Anchor>
-            </Menu>
-            <Box flex="grow" align="end">
-              <SearchIcon />
-            </Box>
-          </Box>
-        </Header>
+      <Box>
+        <Header />
         <Box>
           <Hero size="large" backgroundImage="/img/marquee.jpg" colorIndex="light-1">
             <Card
