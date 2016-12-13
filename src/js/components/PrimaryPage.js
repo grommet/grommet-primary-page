@@ -57,14 +57,13 @@ export default class PrimaryPage extends Component {
         <Footer full="horizontal">
           <Box colorIndex="neutral-1" pad="large" align="center" full="horizontal">
             <Box className="footer-cards-container" pad={{vertical: "medium"}}
-              size={{width: "xxlarge"}} direction="row">
+              size={{width: 'xxlarge'}} direction="row" flex="grow">
               <Card
                 pad={{horizontal: "large"}}
                 contentPad="medium"
-                basis="1/2"
-                direction="row"
                 heading="Lorem ipsum dolor sit amet"
                 label="Label"
+                basis="1/2"
                 link={
                   <Anchor href="http://www.grommet.io/docs/" primary={true}>
                     Learn More
@@ -74,10 +73,9 @@ export default class PrimaryPage extends Component {
               <Card
                 pad={{horizontal: "large"}}
                 contentPad="medium"
-                basis="1/2"
-                direction="row"
                 heading="Lorem ipsum dolor sit amet"
                 label="Label"
+                basis="1/2"
                 link={
                   <Anchor href="http://www.grommet.io/docs/" primary={true}>
                     Learn More
