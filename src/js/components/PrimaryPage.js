@@ -59,7 +59,6 @@ export default class PrimaryPage extends Component {
               pad={{horizontal: "large"}}
               contentPad="medium"
               basis="1/2"
-              direction="row"
               heading="Lorem ipsum dolor sit amet"
               label="Label"
               link={
@@ -72,7 +71,6 @@ export default class PrimaryPage extends Component {
               pad={{horizontal: "large"}}
               contentPad="medium"
               basis="1/2"
-              direction="row"
               heading="Lorem ipsum dolor sit amet"
               label="Label"
               link={
