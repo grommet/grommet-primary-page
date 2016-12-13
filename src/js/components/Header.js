@@ -9,9 +9,9 @@ import SearchIcon from 'grommet/components/icons/base/Search';
 export default function AppHeader (props) {
   return (
     <Header justify="center" colorIndex="neutral-4">
-      <Box size={{width: {min: 'xxlarge'}}} direction="row"
+      <Box size={{width: {max: 'xxlarge'}}} direction="row"
         responsive={false} justify="start" align="center" 
-        pad={{horizontal: 'medium'}}>
+        pad={{horizontal: 'medium'}} flex="grow">
         <ArubaIcon colorIndex="brand" size="large" />
         <Box pad="small" />
         <Menu label="Label" inline={true} direction="row">
